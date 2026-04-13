@@ -556,15 +556,14 @@ const Footer = () => (
         <div>
           <h4 className="text-gold text-[10px] uppercase tracking-[0.3em] mb-8">Office</h4>
           <p className="text-sm text-paper/60 leading-relaxed">
-            Geneva, Switzerland <br />
-            Private Client Suite 402
+            Sorrel Enterprise
           </p>
         </div>
       </div>
     </div>
     <div className="max-w-7xl mx-auto mt-32 pt-8 border-t border-white/5 flex justify-between items-center text-[10px] uppercase tracking-[0.3em] text-white/20">
       <span>© 2026 ECHO Platform</span>
-      <span>Designed in Geneva</span>
+      <span>Sorrel Enterprise</span>
     </div>
   </footer>
 );
