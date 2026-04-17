@@ -45,7 +45,7 @@ const Navbar = () => (
       <a href="#invitation" className="hover:text-white transition-colors">Invitation</a>
     </div>
     <button className="text-[10px] uppercase tracking-[0.3em] border border-white/20 px-6 py-2 hover:bg-white hover:text-black transition-all duration-500">
-      Private Access
+      Sign In
     </button>
   </nav>
 );
@@ -91,6 +91,16 @@ const Hero = () => {
           Write what you have <br />
           <span className="italic">never said.</span>
         </motion.h1>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.5, delay: 1.2 }}
+          className="flex justify-center"
+        >
+          <button className="text-[11px] uppercase tracking-[0.4em] border border-white/30 px-10 py-3 hover:bg-white hover:text-black transition-all duration-500">
+            Enter Echo
+          </button>
+        </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
