@@ -44,7 +44,7 @@ const Navbar = () => (
       <a href="#engineering" className="hover:text-white transition-colors">Engineering</a>
       <a href="#invitation" className="hover:text-white transition-colors">Invitation</a>
     </div>
-    <button className="text-[10px] uppercase tracking-[0.3em] border border-white/20 px-6 py-2 hover:bg-white hover:text-black transition-all duration-500">
+    <button onClick={() => window.location.href = 'https://echo-web-6x9.pages.dev/auth'} className="text-[10px] uppercase tracking-[0.3em] border border-white/20 px-6 py-2 hover:bg-white hover:text-black transition-all duration-500">
       Sign In
     </button>
   </nav>
@@ -97,7 +97,7 @@ const Hero = () => {
           transition={{ duration: 1.5, delay: 1.2 }}
           className="flex justify-center"
         >
-          <button className="text-[11px] uppercase tracking-[0.4em] border border-white/30 px-10 py-3 hover:bg-white hover:text-black transition-all duration-500">
+          <button onClick={() => window.location.href = 'https://echo-web-6x9.pages.dev/auth'} className="text-[11px] uppercase tracking-[0.4em] border border-white/30 px-10 py-3 hover:bg-white hover:text-black transition-all duration-500">
             Enter Echo
           </button>
         </motion.div>
